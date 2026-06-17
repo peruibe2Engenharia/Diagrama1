@@ -1,7 +1,7 @@
 const apt = new URLSearchParams(location.search).get('apto') || '301';
 document.getElementById('apt-num').textContent = apt;
 
-// SUBSITUA PELA URL REAL DO SEU PDF NO GITHUB (VEJA COMO PEGAR ABAIXO)
+
 const URL_DO_PDF = "EL-13_DIAGR. E TAB CARGA_R02.pdf";
 
 const btn = document.getElementById('open-btn');
